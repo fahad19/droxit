@@ -2,6 +2,18 @@
 
 Droxit (DROpboX + gIT) is a tool for creating Git repositories quickly on your mac that is pushable to a remote in Dropbox.
 
+## Installation
+
+Clone or download the Droxit repository first.
+
+Make sure the file is executable:
+
+    $ chmod 0777 /path/to/droxit.sh
+
+Link it to your /usr/local/bin
+
+    $ ln -s /path/to/droxit.sh /usr/local/bin/droxit
+
 ## Usage
 
 If you want to create a new repository called `test_repo`, you can do the following:
